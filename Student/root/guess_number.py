@@ -29,9 +29,9 @@ def play_game():
             continue
         guesses += 1
         if guess < target:
-            print("Too low.")
+            print("Too low peasant.")
         elif guess > target:
-            print("Too high.")
+            print("Too high pleb.")
         else:
             print(f"Correct! You guessed it in {guesses} guesses.")
             return guesses
